@@ -14,7 +14,7 @@ namespace OtterUI
     /// This is the base class for creating an OtterUI in Otter.
     /// Use AddWidget to add widgets to this entity, then add the GuiManager object to your Scene after you have added the widgets.
     /// </summary>
-    class GuiManager : Entity
+    public class GuiManager : Entity
     {
         # region Private Fields
 

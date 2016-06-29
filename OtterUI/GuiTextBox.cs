@@ -10,7 +10,7 @@ namespace OtterUI
     /// Currently bugs associated with this component, which can cause screwy things to happen with the text displayed on this, and other widgets.  
     /// Take care in its use, but expect a fix/update at a (hopefully) near stage
     /// </summary>
-    class GuiTextBox : Widget
+    public class GuiTextBox : Widget
     {
         #region Private Fields
 

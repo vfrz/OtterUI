@@ -7,7 +7,7 @@ namespace OtterUI
     /// <summary>
     /// This class is used to create your "buttons" before adding them to the GuiManager.  All button types are created with this class.
     /// </summary>
-    class GuiButton : Widget
+    public class GuiButton : Widget
     {
         #region Private Fields
 

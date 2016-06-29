@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OtterUI", "OtterUI\OtterUI.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Otter", "..\..\..\..\Desktop\kylepulver-otter-cb8f0f21cd95\Otter\Otter.csproj", "{236485C2-A7BA-4DCD-808A-B3A634764402}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OtterUIDemo", "OtterUIDemo\OtterUIDemo.csproj", "{E8014322-1305-4AB6-8DA5-DFBF14730459}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -38,6 +40,18 @@ Global
 		{236485C2-A7BA-4DCD-808A-B3A634764402}.Release|Any CPU.ActiveCfg = Release|x86
 		{236485C2-A7BA-4DCD-808A-B3A634764402}.Release|x86.ActiveCfg = Release|x86
 		{236485C2-A7BA-4DCD-808A-B3A634764402}.Release|x86.Build.0 = Release|x86
+		{E8014322-1305-4AB6-8DA5-DFBF14730459}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8014322-1305-4AB6-8DA5-DFBF14730459}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8014322-1305-4AB6-8DA5-DFBF14730459}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{E8014322-1305-4AB6-8DA5-DFBF14730459}.Debug|x86.Build.0 = Debug|Any CPU
+		{E8014322-1305-4AB6-8DA5-DFBF14730459}.NuGet|Any CPU.ActiveCfg = Release|Any CPU
+		{E8014322-1305-4AB6-8DA5-DFBF14730459}.NuGet|Any CPU.Build.0 = Release|Any CPU
+		{E8014322-1305-4AB6-8DA5-DFBF14730459}.NuGet|x86.ActiveCfg = Release|Any CPU
+		{E8014322-1305-4AB6-8DA5-DFBF14730459}.NuGet|x86.Build.0 = Release|Any CPU
+		{E8014322-1305-4AB6-8DA5-DFBF14730459}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8014322-1305-4AB6-8DA5-DFBF14730459}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8014322-1305-4AB6-8DA5-DFBF14730459}.Release|x86.ActiveCfg = Release|Any CPU
+		{E8014322-1305-4AB6-8DA5-DFBF14730459}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

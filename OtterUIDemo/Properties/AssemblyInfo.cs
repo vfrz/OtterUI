@@ -5,13 +5,13 @@ using System.Runtime.InteropServices;
 // Les informations générales relatives à un assembly dépendent de 
 // l'ensemble d'attributs suivant. Changez les valeurs de ces attributs pour modifier les informations
 // associées à un assembly.
-[assembly: AssemblyTitle("OtterUI")]
-[assembly: AssemblyDescription("GUI Library for Otter")]
+[assembly: AssemblyTitle("OtterUIDemo")]
+[assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("None")]
-[assembly: AssemblyProduct("OtterUI")]
-[assembly: AssemblyCopyright("None")]
-[assembly: AssemblyTrademark("None")]
+[assembly: AssemblyCompany("")]
+[assembly: AssemblyProduct("OtterUIDemo")]
+[assembly: AssemblyCopyright("Copyright ©  2016")]
+[assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
 // L'affectation de la valeur false à ComVisible rend les types invisibles dans cet assembly 
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // Le GUID suivant est pour l'ID de la typelib si ce projet est exposé à COM
-[assembly: Guid("1ce69ad2-0a29-4150-a3f0-ba164a00df73")]
+[assembly: Guid("e8014322-1305-4ab6-8da5-dfbf14730459")]
 
 // Les informations de version pour un assembly se composent des quatre valeurs suivantes :
 //

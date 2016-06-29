@@ -3,7 +3,7 @@ using System;
 
 namespace OtterUI
 {
-    class Widget : Component
+    public class Widget : Component
     {
         #region Private Fields
 
@@ -286,20 +286,28 @@ namespace OtterUI
             bool inBounds = Util.InRect(Scene.MouseX, Scene.MouseY, Scene.CameraX + PosX, Scene.CameraY + PosY, Width, Height);
 
             if (inBounds && CheckMouseClick())
+            {
                 Click();
+            }
             else if (!inBounds && Input.Instance.MouseButtonPressed(MouseButton.Left))
             {
                 if (!hasOnInactiveFired) OnInactiveEvent.Invoke(this, null);
                 isActive = false;
             }
             else if (inBounds && !hasClicked)
+            {
                 if (!hasOnHoverFired) OnHoverEvent.Invoke(this, null);
+            }
             else if (!inBounds && !hasClicked)
             {
                 if (isActive)
+                {
                     if (!hasOnActiveFired) OnActiveEvent.Invoke(this, null);
+                }
                 else
+                {
                     if (!hasOnInactiveFired) OnInactiveEvent.Invoke(this, null);
+                }
             }
         }
 
